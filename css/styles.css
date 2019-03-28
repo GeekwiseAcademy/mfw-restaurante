@@ -77,7 +77,7 @@ nav.navbar{
 /* OUR STORY SECTION */
 
 #our_story, #review{
-    min-height: 600px;
+    min-height: 300px;
 }
 #our_story .row{
     margin-top: 30px;
@@ -105,8 +105,9 @@ nav.navbar{
     z-index: -1;
     position: absolute;
     color: rgba(149,147,147,0.2);
-    text-align: center;
+   
 }
+
 /* REVIEW section */
 #review{
     background-image: url('../img/food_review.jpg');
@@ -181,4 +182,56 @@ nav.navbar{
 }
 #menu .nav-tabs li a{
     border:none;
+}
+@media screen and (max-width:954px){
+    .story_year{
+        font-size: 180px;
+        
+
+    }
+}
+@media screen and (max-width:890px){
+    .story_year{
+        font-size: 170px;
+        
+
+    }
+}
+@media screen and (max-width:954px){
+    .story_year{
+        font-size: 180px;
+        
+
+    }
+}
+@media screen and (max-width:860px){
+    .story_year{
+        font-size: 150px;
+        
+
+    }
+}
+@media screen and (max-width:789px){
+    .story_year{
+        position: absolute;
+        left:30%;
+        
+
+    }
+}
+@media screen and (max-width:493px){
+    .story_year{
+        position: absolute;
+        left:20%;
+        
+
+    }
+}
+@media screen and (max-width:393px){
+    .story_year{
+        position: absolute;
+        left:10%;
+        
+
+    }
 }
