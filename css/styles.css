@@ -114,6 +114,7 @@ nav.navbar {
     z-index: -1;
     position: absolute;
     color: rgba(149, 147, 147, 0.2);
+    padding: 50px 60px 0px 60px;
 }
 /* REVIEW Section */
 #review {
@@ -229,4 +230,7 @@ address {
 .contact_bottom {
     margin-top: 50px;
     margin-bottom: 25px;
+}
+.requiredStar::after {
+    content: '*';
 }
