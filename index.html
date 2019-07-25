@@ -9,9 +9,123 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	    <!-- --------Nav Bar------------ -->
 
-	<!-- javascript	 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+        <nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="" class="navbar-brand"><img src="img/name-01.png" alt="logo">
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="mainNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="#">Home <Span class="sr-only">current</Span></a>
+						</li>
+						<li>
+							<a href="#our_story">Our Story</a></li>
+						<li>
+							<a href="#review">Review</a>
+						</li>
+						<li>
+							<a href="#menu">Menu</a>
+						</li>
+						<li>
+							<a href="#contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	    </nav>
+	   <!--------- End of Nav Bar--------->
+
+	   <!---------start of Carousel------->
+
+	   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+		   <!-- Indicators -->
+
+		   <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active main_img1">
+					  <img src="img/logo-01.png" alt="carousel logo" class="img-responsive center-block main_logo">
+					</div>
+					<div class="item main_img2">
+					    <div class="carousel-caption">
+						  <h1>Eat Local</h1>
+						  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, dolore? Dicta voluptates porro aliquid quos?</p>
+						  <a href="#" class="btn btn-lg btn-primary" role="button">Learn More</a>
+					    </div>
+					</div>
+					<div class="item main_img3">
+						<div class="carousel-caption">
+						    <h1>From Farm To Table</h1>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quasi atque illo ea fugit nisi.</p>
+							<a href="#" role="button">Learn More</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+	   </div>
+
+		<!-- End of Carousel -->
+
+		<!-- our story -->
+		  
+
+        <div id="our_story" class="container-fluid wrap">
+	        <div class="row">
+		       <div class="col-sm-4 col-xs-offset-1">
+			       <h1>our story</h1>
+			       <h3>one man.one dream</h3>
+		       </div>
+		        <div class="col-sm-5 col-sm-offset-1">
+			    <h2 id="story_year">1982</h2>
+			    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo totam ipsum obcaecati delectus recusandae quaerat sunt soluta doloribus vel velit sit mollitia, porro animi nemo non aperiam fuga iusto natus alias doloremque architecto sequi!</p>
+			    <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, provident. Nihil tempore in autem harum? Sint in consequuntur ullam quidem, placeat quod eaque illum inventore aut possimus est praesentium iste sed sapiente, laborum, repudiandae temporibus fugit dolores? Excepturi, pariatur est!</p>
+			   <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt et asperiores iure veritatis neque consequatur ipsam, facilis nemo quidem molestiae at officiis accusamus harum. Dolorum adipisci corporis dolores provident sunt cum doloremque? Laborum in, mollitia iste vero aspernatur odit reiciendis?</p>
+			   <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, laboriosam? Tempora sunt eius incidunt ab accusamus repellat quasi mollitia illo nulla omnis libero, dolores inventore adipisci, quisquam sequi, porro hic! Repellat assumenda vero unde ad saepe, mollitia amet sunt dicta.</p>
+		       </div>
+	        </div>
+		</div>
+		
+		<!-- end our story -->
+		
+		<!---- srart of review----->
+		<div id="review" class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-8 center">
+					<h1>fresno</h1>
+				    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, iure ex fuga nobis quas aliquam sint, suscipit laudantium repellendus cum quae assumenda similique illo veniam ut doloremque, harum magnam ipsum.."</p>
+			    </div>
+		   </div>
+		</div>
+		
+		
+		<!-- end reviw -->
+		
+		<!-- javascript	 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
