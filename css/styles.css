@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap');
 /* global */
 .container-fluid {
@@ -149,3 +148,29 @@ nav.navbar {
    text-shadow:1px 1px 5px #0a0a0a;
 }
 /* review */
+=======
+.carsouel{
+    margin-bottom: 60px;
+}
+.carousel-caption{
+    z-index: 10;
+    padding-bottom: 60px;
+}
+.carousel-inner .item{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.main_img1{
+        background-image: url("../img/wood-2.jpg");
+}
+.main_img2{
+        background-image: url("../img/restaurant-2.jpg");
+}
+.main_img3{
+        background-image: url("../img/farm-2.jpg");
+}
+.main_logo{
+        max-height: 300px;
+}
