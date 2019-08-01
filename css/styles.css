@@ -9,7 +9,10 @@
    using styling from min-height our_story instead
 } */
 #our_story,
-#review {
+#review 
+#menu
+#contact
+{
    min-height:600px;
 }
 
@@ -147,8 +150,9 @@ nav.navbar {
    font-size:2em;
    text-shadow:1px 1px 5px #0a0a0a;
 }
+
 /* review */
-=======
+
 .carsouel{
     margin-bottom: 60px;
 }
@@ -173,4 +177,103 @@ nav.navbar {
 }
 .main_logo{
         max-height: 300px;
+}
+/* menu section */
+
+#menu{
+   background-image: url('../img/black_linen.png');
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 40px;
+   padding-bottom: 70px;
+}
+#menu h1{
+   font-family: 'lobster', cursive;
+   color: aliceblue;
+   font-size: 6em;
+   text-shadow: 1px 1px 5px #0a0a0a;
+
+}
+#menu h3{
+   text-align: center;
+   font-family: 'raleway' , sans-serif;
+   font-weight: 700;
+   font-size: 2em;
+}
+#menu a{
+   color: #f8512f;
+   font-family:  'raleway' , sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+#manu p{
+   text-align: justify;
+   font-family: 'raleway', sans-serif;
+   font-weight: 300;
+}
+.food{
+   background-color: #ff0d06;
+   padding-top: 20px ;
+   padding-bottom: 20px;
+}
+#menu .nav li a:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+}
+#menu .nav-justified li a {
+   margin-bottom: -5px;
+
+}
+#menu .nav-tabs li a {
+   border: none;
+}
+.contact_form {
+   background-color: #ff6633;
+   color: #fff;
+   border: 1px solid #fff;
+}
+.contact_form form{
+   padding: 5% 0;
+}
+.contact_form span{
+   color: #ff0d06;
+
+}
+form span::after {
+   content: '*';
+}
+#contact{
+   background-color:#ff0d06;
+   
+}
+#contact h1{
+   font-family: 'Raleway' , sans-serif;
+   font-weight: 700;
+   color: #fff;
+   font-size: 4em;
+}
+#contact p{
+   font-family: 'raleway' , sans-serif;
+   font-weight: 300;
+   color: #ffF;
+   font-size: 1em;
+}
+#contact_fine_print{
+   font-size: 12px !important;
+   text-align: center;
+
+}
+address{
+   color: #fff;
+   font-family: 'raleway',sans-serif;
+   font-weight:  300px;
+}
+.contact_bottom{
+   margin-top: 50px;
+   margin-bottom: 25px;
+}
+@media (max-width:768){
+   .story_year{
+      font-size: 160px;
+   }
 }
