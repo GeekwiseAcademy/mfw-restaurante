@@ -181,7 +181,7 @@ nav.navbar {
 /* menu section */
 
 #menu{
-   background-image: ('../img/black_linen.png');
+   background-image: url('../img/black_linen.png');
    background-size: cover;
    background-attachment: fixed;
    padding-top: 40px;
@@ -247,7 +247,7 @@ form span::after {
    
 }
 #contact h1{
-   font-family: 'raleway' , sans-serif;
+   font-family: 'Raleway' , sans-serif;
    font-weight: 700;
    color: #fff;
    font-size: 4em;
@@ -255,8 +255,8 @@ form span::after {
 #contact p{
    font-family: 'raleway' , sans-serif;
    font-weight: 300;
-   color: #ff6633;
-   font-size: 4em;
+   color: #ffF;
+   font-size: 1em;
 }
 #contact_fine_print{
    font-size: 12px !important;
