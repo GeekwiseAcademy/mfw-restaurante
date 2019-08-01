@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster%7CRaleway&display=swap');
+/* global */
+.container-fluid {
+   padding:0;
+   margin:0;
+}
+/* .wrap {
+   min-height:100vh;
+   using styling from min-height our_story instead
+} */
+#our_story,
+#review 
+#menu
+#contact
+{
+   min-height:600px;
+}
+
+/* Nav section */
+.nav li a:hover,
+.navbar-default {
+   background-color:transparent;
+}
+.navbar-default {
+   /* background-color:transparent; */
+   border-color:transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+   color:#fff;
+   background-color:rgba(17,17,17,5);
+}
+.navbar-default .navbar-nav > li > a {
+   color:#fcfcfc;
+   text-shadow:1px 1px 2px #0a0a0a;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
+   color:#f8512f;
+   background-color:rgba(17,17,17,.2);
+}
+nav.navbar {
+   position: absolute;
+   top:100;
+   right:0;
+   left:0;
+   z-index:20;
+}
+.navbar-brand > img {
+   margin-top:-7px;
+}
+
+/* carousel section */
+.carousel {
+   margin-bottom:60px;
+}
+.carousel-caption {
+   z-index:10;
+   padding-bottom:60px;
+}
+.carousel-inner .item {
+   width:100%;
+   height:600px;
+   background-size:cover;
+   background-position:center;
+}
+.main_img1 {
+   background-image:url('../img/wood-2.jpg');
+}
+.main_img2 {
+   background-image: url('../img/restaurant-2.jpg');
+}
+.main_img3 {
+   background-image: url('../img/farm-2.jpg');
+}
+.main_logo {
+   max-height:300px;
+}
+.btn-primary {
+   color:#fff;
+   background-color:#f8512f;
+   border-color:transparent;
+}
+.btn-primary:hover {
+   background-color: #d34226;
+   border-color:transparent;
+}
+.carousel-caption p {
+   color:#f7f7f7;
+   font-size:16px;
+}
+/* end of carousel */
+
+
+/* Our Story */
+#our_story .row {
+   margin-top:30px;
+}
+#our_story h1 {
+   font-family:'Lobster', cursive;
+   color:#f8512f;
+   font-size:6m;
+   text-shadow:1px 1px 5px #0a0a0a;
+}
+#our_story h3 {
+   font-family:'Raleway',sans-serif;
+   font-weight:700;
+   font-size:2em;
+   margin-top:0;
+}
+#our_story p {
+   font-family:'Raleway',sans-serif;
+   font-weight:300;
+}
+#story_year {
+   font-family:'Playfair Display',serif;
+   font-size:200px;
+   font-weight:700;
+   z-index:-1;
+   position: absolute;
+   color:rgba(149,147,147,0.2);
+}
+/* end of our story */
+
+/*Review */
+#review {
+   background-image:url('../img/food_review.jpg');
+   background-size:cover;
+   background-attachment:fixed;
+}
+#review .center {
+   margin:0 auto;
+   float:none;
+   background-color:rgba(20,20,20,.6);
+   padding:10px;
+   margin-top:145px;
+   border-radius:5px;
+}
+#review h1 {
+   font-family:'Lobster', cursive;
+   font-size:5em;
+   color:#f8512f;;
+   text-shadow:1px 1px 5px #0a0a0a;
+}
+#review p {
+   color:#fff;
+   font-family:'Raleway',sans-serif;
+   font-weight:300;
+   font-size:2em;
+   text-shadow:1px 1px 5px #0a0a0a;
+}
+
+/* review */
+
+.carsouel{
+    margin-bottom: 60px;
+}
+.carousel-caption{
+    z-index: 10;
+    padding-bottom: 60px;
+}
+.carousel-inner .item{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.main_img1{
+        background-image: url("../img/wood-2.jpg");
+}
+.main_img2{
+        background-image: url("../img/restaurant-2.jpg");
+}
+.main_img3{
+        background-image: url("../img/farm-2.jpg");
+}
+.main_logo{
+        max-height: 300px;
+}
+/* menu section */
+
+#menu{
+   background-image: url('../img/black_linen.png');
+   background-size: cover;
+   background-attachment: fixed;
+   padding-top: 40px;
+   padding-bottom: 70px;
+}
+#menu h1{
+   font-family: 'lobster', cursive;
+   color: aliceblue;
+   font-size: 6em;
+   text-shadow: 1px 1px 5px #0a0a0a;
+
+}
+#menu h3{
+   text-align: center;
+   font-family: 'raleway' , sans-serif;
+   font-weight: 700;
+   font-size: 2em;
+}
+#menu a{
+   color: #f8512f;
+   font-family:  'raleway' , sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+#manu p{
+   text-align: justify;
+   font-family: 'raleway', sans-serif;
+   font-weight: 300;
+}
+.food{
+   background-color: #ff0d06;
+   padding-top: 20px ;
+   padding-bottom: 20px;
+}
+#menu .nav li a:hover {
+   background-color: rgba(255, 255, 255, 0.1);
+    border-color: transparent;
+}
+#menu .nav-justified li a {
+   margin-bottom: -5px;
+
+}
+#menu .nav-tabs li a {
+   border: none;
+}
+.contact_form {
+   background-color: #ff6633;
+   color: #fff;
+   border: 1px solid #fff;
+}
+.contact_form form{
+   padding: 5% 0;
+}
+.contact_form span{
+   color: #ff0d06;
+
+}
+form span::after {
+   content: '*';
+}
+#contact{
+   background-color:#ff0d06;
+   
+}
+#contact h1{
+   font-family: 'Raleway' , sans-serif;
+   font-weight: 700;
+   color: #fff;
+   font-size: 4em;
+}
+#contact p{
+   font-family: 'raleway' , sans-serif;
+   font-weight: 300;
+   color: #ffF;
+   font-size: 1em;
+}
+#contact_fine_print{
+   font-size: 12px !important;
+   text-align: center;
+
+}
+address{
+   color: #fff;
+   font-family: 'raleway',sans-serif;
+   font-weight:  300px;
+}
+.contact_bottom{
+   margin-top: 50px;
+   margin-bottom: 25px;
+}
+@media (max-width:768){
+   .story_year{
+      font-size: 160px;
+   }
+}
