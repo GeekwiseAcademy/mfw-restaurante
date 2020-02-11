@@ -10,7 +10,8 @@
 </head>
 <body>
 
-	<!-- Navbar section -->
+	<!-- NAVBAR SECTION -->
+	<!-- nav.navbar.navbar-default>.container-fluid>(.navbar-header>(button[type=button][data-toggle=collapse][data-target="#myNav"].navbar-toggle.collapsed>(span.sr-only{Toggle Navigation}+(span.icon-bar)*3))+(a.navbar-brand>img[src="img/name-01.png"][alt="Restaurante logo"]))+(.collapse.navbar-collapse#myNav>(ul.nav.navbar-nav.navbar-right>(li>a[href="#"])*5)) -->
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -25,10 +26,10 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active">
 						<a href="#home">
-						Home
-						<span class="sr-only">(current)</span>
-					</a>
-				</li>
+							Home
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
 					<li><a href="#our_story">Our Story</a></li>
 					<li><a href="#review">Review</a></li>
 					<li><a href="#menu">Menu</a></li>
@@ -37,53 +38,82 @@
 			</div>
 		</div>
 	</nav>
-	<!-- Nav End -->
-	<!-- Carousel Section --><div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="..." alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-      <img src="..." alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    <div class="item">
-		<img src="..." alt="...">
-		<div class="carousel-caption">
-		  ...
+	<!-- NAV END -->
+	<!-- CAROUSEL SECTION -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+		
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active" id="carousel_image_one">
+					<div class="carousel-caption">
+						<img src="img/logo-01.png" alt="Company logo" class="img-responsive center-block carousel_logo_image">
+					</div>
+				</div>
+				<div class="item" id="carousel_image_two">
+					<div class="carousel-caption">
+						<!-- h1{Eat Local}+p{lorem15}+a.btn.btn-lg.carousel_button{Learn More}[href="#"][role="button"] -->
+						<h1>Eat Local</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eveniet ipsam consectetur, esse mollitia sit.</p>
+						<a href="#" role="button" class="btn btn-lg carousel_button">Learn More</a>
+					</div>
+				</div>
+				<div class="item" id="carousel_image_three">
+					<div class="carousel-caption">
+						<!-- h1{From Farm To Table}+p{lorem15}+a.btn.btn-lg.carousel_button{Learn More}[href="#"][role="button"] -->
+						<h1>From Farm To Table</h1>
+						<p>lorem15</p>
+						<a href="#" class="btn btn-lg carousel_button" role="button">Learn More</a>
+					</div>
+				</div>
+			</div>
+		
+			<!-- Controls -->
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
 		</div>
-	  </div>
-  </div>
+	<!-- CAROUSEL ENDS -->
+	<!-- OUR STORY SECTION -->
+		<!-- #our_story.container-fluid>.row>(.col-sm-4.col-xs-offset-1>h2{Our Story}+h3{One Man. One Dream.})+(.col-sm-5.col-sm-offset-1>h2#story_year{1982}+(p.text-justify{lorem40})*4) -->
+		<div id="our_story" class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 col-xs-offset-1">
+					<h2 class="text-center">Our Story</h2>
+					<h3 class="text-center">One Man. One Dream.</h3>
+				</div>
+				<div class="col-sm-5 col-sm-offset-1">
+					<p id="story_year">1982</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quibusdam, sequi aspernatur iusto rem ab repellendus illum possimus tempora! Nostrum illo modi, sapiente debitis nisi obcaecati laboriosam voluptate eligendi doloribus labore laudantium sequi esse. Pariatur aut a temporibus alias necessitatibus!</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus incidunt nisi fuga, quisquam expedita optio quam excepturi voluptatum ut cum pariatur possimus ipsum repudiandae! Ea, voluptatem! Amet similique dicta quibusdam nisi necessitatibus quasi ab debitis adipisci, cumque cupiditate alias sed.</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem provident repellendus asperiores odit voluptas facilis perspiciatis illo, excepturi sit, qui ex, porro ipsum? Eum quaerat distinctio aliquam excepturi quo magni, explicabo adipisci recusandae incidunt, omnis saepe maxime natus rerum perspiciatis.</p>
+					<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestiae error velit, saepe officiis ab enim, facere placeat corrupti id veritatis quos ipsa explicabo ipsum consequuntur nobis quam esse, doloribus ullam accusantium aut aspernatur. Vel et tempora commodi. Doloribus, excepturi?</p>
+				</div>
+			</div>
+		</div>
+	<!-- OUR STORY ENDS -->
+	<!-- REVIEW SECTION-->
+		<!-- #review.container-fluid>.row.text-center>.col-sm-8.center>h1{Fresno Bee}+p{"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite!"} -->
+		<div id="review" class="container-fluid">
+			<div class="row text-center">
+				<div class="col-sm-8 center">
+					<h1>Fresno Bee</h1>
+					<p>"The freshest and best ingredients come together to make some of the best food I have ever ate. You can really taste the Central Valley in every bite!"</p>
+				</div>
+			</div>
+		</div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-	<!-- End of Carousel -->
-
-
-
+	<!-- REVIEW ENDS -->
 
 
 	<!-- javascript	 -->
